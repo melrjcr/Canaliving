@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "canaliving",
+  "private_key_id": "f1a5a95f33a1c18f5dcd2ebb37cb8fc6658e2659",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCYMhdSsiQ8cwpd\nM9Q92D+LrvXe5+Pqej+VfycBj3GDomH9YbE0v6yo9ay8Y4RNOONy0SOWH2foBOTc\nOOID6qldzvkM5HLTe62VElNGGkXZFiVC6oibvsGZ71lviA42BLyQraC175HV0ICO\nxhnNcE8B4u7TR4V7OwabZTnLSP30kHo6D65BMQgKj01bG0WyKuOvpCl1ZhdXz67b\nhLdQupOtcsSKLjjB3r9FhrfC0PjPR/drh/ZVwdXCotSYZcEwiggcRdh6sHhhTVl4\nIhd8dS3v43yJMZ9U9AKxnVa8yNYg9jh1R0zsWf39XlhV5kSv7lEXhvZlFlhIdXOU\ncPU+SK7NAgMBAAECggEABS4LQirC9fW6YBKwAgzWmNPzFUuSI7xWZqmls7VkmSTR\nLfUBuXhekX+PCfhfG9u4TgOVMPpPqINmIKKk+poleoZdTpWF3PHEJiMyB1xEjU9m\nJEFkNdzHrQwK4LNiPG9r1Ya7RgXp0jue7H0MisPsRHWrSDCSd++52VcYIPWSgxzM\nPKR3ne5gnLUyzrsMnvyHmhI63weouRphS9mxEOeRsID5k3CJbzbzbxa44kGOpygq\nZ01wN9Q2wYFVecYwxyAAecv8kIyVDKm0iJkxget85fVMGYUBt5JHLhdNiHApyTRz\nClo0oZj08Ge2GnSPEs+cnemPzg4Afce16QtJwa1V0QKBgQDTMiRThx7+qHHk5j2u\nxLhcW8bxY9zKJygBlGxQinFL8qa3lvN4NJDvkvnAb5f7ovqlezgme2Nh13+R/oiw\nsndsIUpqbOwNbapygMEdOC50KyZaTXbBxzZJe9QeV7jS2PXj9bBk4FTsGfwCoZvc\nKtG1Je6I665VvUVBF2HeKVHS5QKBgQC4e7OLkv23imv30MHjl2h51IsbHbLgpIGG\nzXAY4/B+Lkv0kh55pq6MJjkvc4mvN8zTSnvTJpXvgNkejNFaBoFLuFxttJJ6/eEW\nGlu+SPuDX19M8x/H2kt++mSqVg/uAY+1ynNFfo15BvJCLH8HNTV3NrmvzKN08IJa\nOlp2D2MlyQKBgQC0bVD1fylunA95Y23tAikS1mF21j7JAXy/JMMIZ830+V+O1so3\ntojf86ukyHGKTClf+I326lD0RLu6yT6T3lQCL8q4c0eTDU6htffFc7rUCg0g9q7v\nS7bIPp7wMTc4ApzHXJ2PAMvsTSKsSM6z4Gz6GmbX2Kk+nI0u18AHoTtDNQKBgDjp\noJg8fp0yzOAkvMvzl72N/mQdI2P+HB90HVLwbu7eZXxL367z5wFBgX7MC/vMIRpF\n7jFTxAmhHFo6YxN80kKD26/UdyQOUnQ5KXhol38N2x6oGnPTOlsv8AJEjqGERct1\na15TDl358J7Nj1qv5ZCjh2FepkabM/uV6PZnBNVRAoGBAM/fXRpoxp+GgIEdDFvp\n34yfRgUt3HL5tdq2GiPyzZVPEB693D0WmCliTcLnaWscRrU6IDULgJqH/pvPl+VV\nEVWf5ugHuk/UA1hr+8TqdRXc2jrSijr8vZU6UdxCue1UauNYkCbruz+HqUZbSEGI\nOr/IVNPw6tCBgdFt3OzMAPXY\n-----END PRIVATE KEY-----\n",
+  "client_email": "mel-796@canaliving.iam.gserviceaccount.com",
+  "client_id": "105405168759069819694",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mel-796%40canaliving.iam.gserviceaccount.com"
+}

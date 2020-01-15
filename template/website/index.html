@@ -1,0 +1,200 @@
+{% extends 'base.html' %}
+
+{% block head_css %}
+
+
+{% endblock head_css %}
+
+
+
+{% block content %}
+
+<div class="mainbanner">
+  <div id="main-banner" class="owl-carousel home-slider">
+    <div class="item"> <a href="#"><img src="/static/image/banners/MainBanner.png" alt="main-banner1" class="img-responsive" /></a> </div>
+    <div class="item"> <a href="#"><img src="/static/image/banners/MainBanner1.png" alt="main-banner2" class="img-responsive" /></a> </div>
+    <div class="item"> <a href="#"><img src="/static/image/banners/MainBanner2.png" alt="main-banner3" class="img-responsive" /></a> </div>
+  </div>
+</div>
+
+<!---TOP PRODUCTS--->
+<div class="row">
+    <div class="content col-sm-12">
+      <div class="customtab">
+        <h3 class="productblock-title">Best Seller</h3>
+        <div id="tabs" class="customtab-wrapper">
+          <ul class='customtab-inner'>
+            <li class='tab'><a href="#tab-furniture">Beauty Cream</a></li>
+            <li class='tab'><a href="#tab-living">Bath Supplies</a></li>
+            <li class='tab'><a href="#tab-decor">Pets</a></li>
+            <li class='tab'><a href="#tab-kitchen">Health</a></li>
+          </ul>
+        </div>
+      </div>
+
+       <!-- tab-BeautyCream-->
+      <div id="tab-furniture" class="tab-content">
+        <div class="box">
+          <div id="special-slidertab" class="row owl-carousel product-slider">
+            {% for product in products %}
+            {% if product.category == 'Beauty Cream' %}
+            <div class="item">
+              <div class="product-thumb">
+
+                <div class="image product-imageblock"> <a href="product.html"> <img src={{ product.image }}  title="{{ product.name }}" class="img-responsive" /> <img src={{ product.image }}  title="{{ product.name }}" class="img-responsive" /> </a>
+                  <ul class="button-group">
+
+                    <li>
+                      <button type="button" class="wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    </li>
+                    <li>
+                      <button type="button" class="addtocart-btn" title="Add to Cart"  > Add to Cart </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="caption product-detail">
+                  <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  <h4 class="product-name"><a href="#" title="{{ product.name }}">{{ product.name }}</a></h4>
+                  <p class="price product-price">${{ product.price }}</p>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- tab-Bath-->
+      <div id="tab-living" class="tab-content">
+        <div class="box">
+          <div id="latest-slidertab" class="row owl-carousel product-slider">
+            {% for product in products %}
+            {% if product.category == 'Bath' %}
+            <div class="item">
+              <div class="product-thumb">
+                <div class="image product-imageblock"> <a href="product.html"> <img src={{ product.image }}  title="{{ product.name }}" class="img-responsive" /> <img src="{{ product.image }}"  title="{{ product.name }}" class="img-responsive" /> </a>
+                  <ul class="button-group">
+                    <li>
+                      <button type="button" class="wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    </li>
+                    <li>
+                      <button type="button" class="addtocart-btn" title="Add to Cart"  > Add to Cart </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="caption product-detail">
+                  <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  <h4 class="product-name"><a href="#" title="{{ product.name }}">{{ product.name }}</a></h4>
+                  <p class="price product-price">${{ product.price }}</p>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- tab-decor-->
+      <div id="tab-decor" class="tab-content">
+        <div class="box ">
+          <div id="bestseller-slidertab" class="row owl-carousel product-slider">
+              {% for product in products %}
+             {% if product.category == 'Pets' %}
+            <div class="item">
+              <div class="product-thumb">
+                <div class="image product-imageblock"> <a href="product.html"> <img src="{{ product.image }}"  title="{{ product.name }}" class="img-responsive" /> <img src="{{ product.image }}" title="{{ product.name }}" class="img-responsive" /> </a>
+                  <ul class="button-group">
+                    <li>
+                      <button type="button" class="wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    </li>
+                    <li>
+                      <button type="button" class="addtocart-btn" title="Add to Cart"  > Add to Cart </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="caption product-detail">
+                  <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  <h4 class="product-name"><a href="#" title="{{ product.name}}">{{ product.name }}</a></h4>
+                  <p class="price product-price">${{ product.price }}</p>
+                </div>
+              </div>
+            </div>
+             {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- tab-kitchen-->
+      <div id="tab-kitchen" class="tab-content">
+        <div class="box">
+          <div id="kitchen-slidertab" class="row owl-carousel product-slider">
+            {% for product in products %}
+            {% if product.category == 'Health' %}
+            <div class="item">
+              <div class="product-thumb">
+                <div class="image product-imageblock"> <a href="product.html"> <img src={{ product.image}}  title="{{ product.name }}" class="img-responsive" /> <img src={{ product.image }} title="{{ product.name}}" class="img-responsive" /> </a>
+                  <ul class="button-group">
+                    <li>
+                      <button type="button" class="wishlist" data-toggle="tooltip" data-placement="top" title="Add to Wish List" ><i class="fa fa-heart-o"></i></button>
+                    </li>
+                    <li>
+                      <button type="button" class="addtocart-btn" title="Add to Cart"  > Add to Cart </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="caption product-detail">
+                  <div class="rating"> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i><i class="fa fa-star fa-stack-2x"></i></span> <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> </div>
+                  <h4 class="product-name"><a href="#" title="{{ product.name }}">{{ product.name }}</a></h4>
+                  <p class="price product-price">${{ product.price }}</p>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+<!--- TESTIMONIALS-->
+<div class="parallax">
+  <ul id="testimonial" class="row owl-carousel product-slider">
+    <li class="item">
+      <div class="panel-default">
+        <div class="testimonial-image"><img src="/static/image/t1.png" alt="#"></div>
+        <div class="testimonial-name">
+          <h2>Janet Wilson</h2>
+        </div>
+        <div class="testimonial-designation">
+          <p>Web Designer</p>
+        </div>
+        <div class="testimonial-desc">"This product change my life! My skin has never been clearer or smoother. Im so happy I took the chance and change the way I feel about my skin.".</div>
+      </div>
+    </li>
+    <li class="item">
+      <div class="panel-default">
+        <div class="testimonial-image"><img src="/static/image/t2.png" alt="#"></div>
+        <div class="testimonial-name">
+          <h2>Linda Howard</h2>
+        </div>
+        <div class="testimonial-designation">
+          <p>Business Owner</p>
+        </div>
+        <div class="testimonial-desc">"Our son left to the army and let his dog Nelson under our care. The poor thing missed him terrible! always anxious and scared. We took a chance with the CBD Dog Treads and now he is such a happy dog! We are so proud that we can now show our son how good Nelson is while waiting on his return"</div>
+      </div>
+    </li>
+    <li class="item">
+      <div class="panel-default">
+        <div class="testimonial-image"><img src="/static/image/t3.png" alt="#"></div>
+        <div class="testimonial-name">
+          <h2>Claire Howard </h2>
+        </div>
+        <div class="testimonial-designation">
+          <p>School Teacher</p>
+        </div>
+        <div class="testimonial-desc">"I constantly get consumed in my work, I just feel such passionate about teaching, that I forget to take good care of my health and I started experience horrible consequences because of it. Im such a different person now! since I've been taking CBD with Curcumin I feel energized and full of life"</div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+{% endblock%}

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title%} Contact Us {% endblock %}
+
+{% block content %}
+<!--TOP BANNER-->
+<div class="breadcrumb parallax">
+  <h1>Contact Us</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about-us.html">About Us</a></li>
+  </ul>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-1 col-md-10">
+      <h3 class="contactus-title">How Can We Help You?</h3>
+      <p class="text-center contact-desc">Our Customer Service representatives are here to help you with any issues that you encounter. Feel free to reach out to us by phone, email or contact form (find below). </p>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-4">
+        <div class="complaint">
+          <h2 class="tf">Tel</h2>
+          <div class="call-info">0123 456 789 / 0123 456 788</div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="email">
+          <h2 class="tf">Mail</h2>
+        <div class="email-info">infoservices@minimo.com</div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="time">
+          <h2 class="tf">Time</h2>
+          <div class="time-info">24/7 </div>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-offset-3 col-sm-6">
+    <div class="main-form">
+      <h3 class="contactus-title"> {{ content.title }}</h3>
+        {{ content.message }}
+      <div class="row">
+        <form name="contactform" method="POST">
+           {% csrf_token %}
+           {{ form.as_p }}
+        <div class="form-actions" ><button class="btn btn-large btn-primary" type="submit">Send</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock%}
