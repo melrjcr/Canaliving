@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6fcfc5b-6fd4-478c-ae8a-6c21b660892a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579100559332</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1579100808518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579100808518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -123,10 +129,14 @@
       <screen x="67" y="27" width="1853" height="908" />
     </state>
     <state x="654" y="285" width="668" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.908@67.27.1853.908" timestamp="1578857223127" />
-    <state x="566" y="72" width="844" height="816" key="CommitChangelistDialog2" timestamp="1579100558974">
+    <state x="566" y="72" width="844" height="816" key="CommitChangelistDialog2" timestamp="1579100808382">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
-    <state x="566" y="72" width="844" height="816" key="CommitChangelistDialog2/67.27.1853.908@67.27.1853.908" timestamp="1579100558974" />
+    <state x="566" y="72" width="844" height="816" key="CommitChangelistDialog2/67.27.1853.908@67.27.1853.908" timestamp="1579100808382" />
+    <state x="167" y="125" width="1653" height="710" key="DiffContextDialog" timestamp="1579101245138">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="167" y="125" width="1653" height="710" key="DiffContextDialog/67.27.1853.908@67.27.1853.908" timestamp="1579101245138" />
     <state x="773" y="232" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578913344685">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
@@ -169,14 +179,26 @@
       <screen x="67" y="27" width="1831" height="886" />
     </state>
     <state x="471" y="104" key="SettingsEditor/67.27.1831.886@67.27.1831.886" timestamp="1578231148033" />
-    <state x="588" y="216" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579100570597">
+    <state x="588" y="216" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579100998435">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
-    <state x="588" y="216" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.908@67.27.1853.908" timestamp="1579100570597" />
+    <state x="588" y="216" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.908@67.27.1853.908" timestamp="1579100998435" />
     <state x="649" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1578911886000">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
     <state x="649" y="307" key="com.intellij.ide.util.TipDialog/67.27.1853.908@67.27.1853.908" timestamp="1578911886000" />
+    <state x="683" y="273" key="git4idea.merge.GitMergeDialog" timestamp="1579101044206">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="683" y="273" key="git4idea.merge.GitMergeDialog/67.27.1853.908@67.27.1853.908" timestamp="1579101044206" />
+    <state x="660" y="273" width="657" height="413" key="git4idea.merge.GitPullDialog" timestamp="1579101014613">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="660" y="273" width="657" height="413" key="git4idea.merge.GitPullDialog/67.27.1853.908@67.27.1853.908" timestamp="1579101014613" />
+    <state x="695" y="376" width="586" height="207" key="git4idea.ui.GitResetDialog" timestamp="1579101091156">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="695" y="376" width="586" height="207" key="git4idea.ui.GitResetDialog/67.27.1853.908@67.27.1853.908" timestamp="1579101091156" />
     <state x="656" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1578856800739">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
