@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6fcfc5b-6fd4-478c-ae8a-6c21b660892a" name="Default Changelist" comment="" />
+    <list default="true" id="c6fcfc5b-6fd4-478c-ae8a-6c21b660892a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/film_project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -93,16 +97,36 @@
       <option name="presentableId" value="Default" />
       <updated>1578230615957</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1579100559331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579100559332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="141" width="800" height="677" key="#Notifications" timestamp="1579100790978">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="588" y="141" width="800" height="677" key="#Notifications/67.27.1853.908@67.27.1853.908" timestamp="1579100790978" />
     <state x="654" y="285" width="668" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578857223127">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
     <state x="654" y="285" width="668" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.908@67.27.1853.908" timestamp="1578857223127" />
+    <state x="566" y="72" width="844" height="816" key="CommitChangelistDialog2" timestamp="1579100558974">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="566" y="72" width="844" height="816" key="CommitChangelistDialog2/67.27.1853.908@67.27.1853.908" timestamp="1579100558974" />
     <state x="773" y="232" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578913344685">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
@@ -145,6 +169,10 @@
       <screen x="67" y="27" width="1831" height="886" />
     </state>
     <state x="471" y="104" key="SettingsEditor/67.27.1831.886@67.27.1831.886" timestamp="1578231148033" />
+    <state x="588" y="216" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1579100570597">
+      <screen x="67" y="27" width="1853" height="908" />
+    </state>
+    <state x="588" y="216" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.908@67.27.1853.908" timestamp="1579100570597" />
     <state x="649" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1578911886000">
       <screen x="67" y="27" width="1853" height="908" />
     </state>
